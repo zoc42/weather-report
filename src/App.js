@@ -51,7 +51,7 @@ function App() {
           />
         </div>
         {(typeof weather.main != "undefined") ? (
-          <div style={{background: "#111"}}>
+          <div style={{background: "rgba(0, 0, 0, 0.7)"}}>
         <div className="location-box">
           <div className="location">{weather.name}, {weather.sys.country}</div>
           <div className="date">{dateBuilder(new Date())}</div>
